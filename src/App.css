@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Vinyl&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/109669/pexels-photo-109669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 5% 0;
+    opacity: 0.9;
+    padding: 2rem !important;
+}
+.main {
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+}
+.title {
+    color: rgb(255, 255, 255);
+
+    justify-content: center;
+    display: flex;
+    font-family: "Rubik Vinyl", cursive;
+    margin: 0.1em 0.5em;
+    background-color: rgba(165, 42, 42, 0.384);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(252, 252, 252, 0.671);
+
+    font-size: 4.5rem;
+}
